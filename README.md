@@ -43,7 +43,10 @@
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="1480" height="848" alt="image" src="https://github.com/user-attachments/assets/40f701d1-951d-4bec-bcd0-f03043cbe95f" />
 
+Если заменить     let lastDigits = numbers |> List.map convertintString на     let lastDigits = numbers |> List.map (fun x -> int(abs x) % 10 ) , то последнее число вещественного числа станет уже последним до точки( я тогда просто буду отбрасывать дробную часть, но этот вариант мне не оч понравился, поэтому я оставила с convertintString)
+<img width="1429" height="653" alt="image" src="https://github.com/user-attachments/assets/6a161c65-85b7-4c69-a6a2-d5abe04b0f1c" />
 
 
 # Задание 2
@@ -91,4 +94,8 @@ fold проходит по списку
 ### Тестирование
 
 Скриншоты результата работы программы
+<img width="1408" height="931" alt="image" src="https://github.com/user-attachments/assets/80f33388-4e19-4e0b-8f52-377cb6b7b76e" />
+
+<img width="1429" height="707" alt="image" src="https://github.com/user-attachments/assets/c0ce04e5-1a06-4db2-9233-4418ebfcdad7" />
+
 
